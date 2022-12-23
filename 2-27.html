@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2-27</title>
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <meta name="description" content="ページの説明文" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:description" content="ページの説明文" />
+    <!-- <meta property="og:image" content="https://mywebsite.com/image.jpg"> -->
+    <!-- <meta property="og:image:alt" content="画像の説明文"> -->
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <meta property="og:url" content="https://mywebsite.com/page" />
+    <link rel="canonical" href="https://mywebsite.com/page" />
+  </head>
+
+  <body>
+    <!-- コンテンツ ウォッチャーの例 -->
+    <div class="" id="app">
+      <label for="">
+        名前：
+        <input type="text" v-model="name" />
+      </label>
+      <p>入力された値：{{ upperName }}</p>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      window.Vue ||
+        document.write('<script src="lib/vue.global.js"><\/script>');
+    </script>
+    <script src="https://cdn.jsdeliver.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  </body>
+</html>
